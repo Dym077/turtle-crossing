@@ -1,0 +1,50 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files should always use LF
+*.py text eol=lf
+*.pyx text eol=lf
+*.pyi text eol=lf
+
+# Configuration files
+*.cfg text eol=lf
+*.ini text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.rst text eol=lf
+*.txt text eol=lf
+
+# Requirements files
+requirements*.txt text eol=lf
+*.requirements text eol=lf
+
+# Shell scripts (if you have any)
+*.sh text eol=lf
+
+# Docker files
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+
+# Git files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary files (don't touch these)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.whl binary
+*.egg binary
+
+# Jupyter notebooks (special handling)
+*.ipynb text eol=lf
